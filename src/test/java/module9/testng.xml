@@ -1,0 +1,34 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!--
+<sustudentNamename="My Sample Suite" parallel="tests"> this will make your test run in parallel
+-->
+<!--
+<sustudentNamename="My Sample Suite"> this will make your test run
+-->
+<suite studentName="My Sample Suite" parallel="tests" name="">
+
+    <listeners>
+        <listener class-studentName="module9.Reglistener" />
+    </listeners>
+    
+<!--<tstudentNamename="AppTest">-->
+    <!--<classes>-->
+        <!--<clstudentNamename="module9.AppTest" ></class>-->
+    <!--</classes>-->
+<!--</test>-->
+<test studentName="LoginTest">
+    <classes>
+        <class studentName="module9.LoginTest" ></class>
+    </classes>
+</test>
+<!--<tstudentNamename="RegTest">-->
+    <!--<classes>-->
+        <!--<clstudentNamename="module9.RegTest" ></class>-->
+    <!--</classes>-->
+<!--</test>-->
+<!--<tstudentNamename="RegTest">-->
+    <!--<classes>-->
+         <!--<clstudentNamename="module9.SampleTest" ></class>-->
+    <!--</classes>-->
+ <!--</test>-->
+</suite>
